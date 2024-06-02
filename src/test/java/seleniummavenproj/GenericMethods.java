@@ -53,5 +53,9 @@ public class GenericMethods {
 		return driver;
 	}
 
+	public void closebrowser(WebDriver driver)
+	{
+		driver.close();
+	}
 
 }
