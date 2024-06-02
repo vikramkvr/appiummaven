@@ -1,0 +1,13 @@
+
+ This project is a demo for Selenium with hybrid framework , where testng and maven are used
+ I am generating dynamic xml file, where the data for test cases to be executed is pulled from datasheet, and a dynamic xml 'runtimeTestng.xml' is created.
+ 'Triggeringprogram' is the java class that has code to create the dynamic xml.
+ Run the testng.xml file, which triggers the 'Trigerringprogram.java', which inturn creates the dynamic xml 'runtimeTestng.xml'
+ 
+ 
+ 
+ 
+ GIT Related
+ 
+ when you are adding gitignore file from the project, go to git bash, navigate to the project folder, type touch .gitignore, copy the code and save
+ 

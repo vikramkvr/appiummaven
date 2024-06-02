@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><suite name="testngTest"><test name="dynamic test execution"><classes><class name="seleniummavenproj.TestCases"><methods><include name="fourthtest"/><include name="fifthtest"/><include name="sixthtest"/></methods></class></classes></test></suite>
