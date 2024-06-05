@@ -1,6 +1,10 @@
 /target/
 !.mvn/wrapper/maven-wrapper.jar
 /test-output/
+<<<<<<< HEAD
+.test-output/
+=======
+>>>>>>> 01679d32bb5730b58adc59ddb6c08bd07dd3ef93
 ### STS ###
 .apt_generated
 .classpath
@@ -124,6 +128,7 @@ local.properties
 hs_err_pid*
 
 ### Maven ###
+test-output/
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -161,4 +166,14 @@ $RECYCLE.BIN/
 *.lnk
 
 
+<<<<<<< HEAD
+# image files
+.jpg
+.png
+.jpeg
+
+
 # End of https://www.gitignore.io/api/git,java,maven,eclipse,windows
+=======
+# End of https://www.gitignore.io/api/git,java,maven,eclipse,windows
+>>>>>>> 01679d32bb5730b58adc59ddb6c08bd07dd3ef93

@@ -3,7 +3,7 @@
 <suite name="TestSUITE" parallel="tests" thread-count="1">
  <test name="Sample TEST">
  <classes>
- <class name="seleniummavenproj.Triggeringprogram"/>
+ <class name="appiummavenproject.Triggeringprogram"/>
  </classes>
  </test>
 </suite>

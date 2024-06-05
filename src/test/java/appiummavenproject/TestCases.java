@@ -1,4 +1,4 @@
-package seleniummavenproj;
+package appiummavenproject;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -110,7 +110,8 @@ public class TestCases {
 		//maximizing browser
 		driver.manage().window().maximize();
 		System.out.println("browser maximized");
-		gm.closebrowser(driver);
+		etest.log(Status.PASS,etest.addScreenCaptureFromBase64String(capture(driver))+ "Test Passed");
+		//gm.closebrowser(driver);
 	
 	}
 	
@@ -126,7 +127,8 @@ public class TestCases {
 		//maximizing browser
 		driver.manage().window().maximize();
 		System.out.println("browser maximized");
-		gm.closebrowser(driver);
+		etest.log(Status.PASS,etest.addScreenCaptureFromBase64String(capture(driver))+ "Test Passed");
+		//gm.closebrowser(driver);
 	
 	}
 	
@@ -148,14 +150,14 @@ public class TestCases {
 		driver.manage().window().maximize();
 		System.out.println("browser maximized");
 		etest.log(Status.PASS,etest.addScreenCaptureFromBase64String(capture(driver))+ "Test Passed");
-		gm.closebrowser(driver);
+		//gm.closebrowser(driver);
 	}
 	
 	
 	public static String capture(WebDriver wd) throws IOException {
 		TakesScreenshot screen = (TakesScreenshot) wd;
 		File src = screen.getScreenshotAs(OutputType.FILE);
-		String dest =System.getProperty("user.dir")+"\\src\\test\\resources\\output"+getcurrentdateandtime()+".png";
+		String dest =System.getProperty("user.dir")+"\\src\\test\\resources\\output\\"+getcurrentdateandtime()+".png";
 		File target = new File(dest);
 		FileUtils.copyFile(src, target);
 		return dest;
