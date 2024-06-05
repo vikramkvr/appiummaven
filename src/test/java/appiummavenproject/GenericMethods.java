@@ -1,4 +1,4 @@
-package seleniummavenproj;
+package appiummavenproject;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -56,6 +56,7 @@ public class GenericMethods {
 	public void closebrowser(WebDriver driver)
 	{
 		driver.close();
+		System.out.println("browser closed");
 	}
 
 }

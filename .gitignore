@@ -1,6 +1,7 @@
 /target/
 !.mvn/wrapper/maven-wrapper.jar
-
+/test-output/
+.test-output/
 ### STS ###
 .apt_generated
 .classpath
@@ -124,6 +125,7 @@ local.properties
 hs_err_pid*
 
 ### Maven ###
+test-output/
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -159,6 +161,12 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
+# image files
+.jpg
+.png
+.jpeg
 
 
 # End of https://www.gitignore.io/api/git,java,maven,eclipse,windows

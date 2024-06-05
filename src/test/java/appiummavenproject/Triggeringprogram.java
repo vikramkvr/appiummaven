@@ -1,4 +1,4 @@
-package seleniummavenproj;
+package appiummavenproject;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -78,7 +78,7 @@ public class Triggeringprogram {
             org.w3c.dom.Element class1 = document.createElement("class");
             classes.appendChild(class1);
             Attr classname = document.createAttribute("name");
-            classname.setValue("seleniummavenproj.TestCases");
+            classname.setValue("appiummavenproject.TestCases");
             class1.setAttributeNode(classname);
             org.w3c.dom.Element methods = document.createElement("methods");
             class1.appendChild(methods);
